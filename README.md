@@ -82,7 +82,7 @@ Selain itu terdapat juga file **main.dart** yang merupakan titik awal ketika apl
 
 ---
 
-## 📸 Screenshot Aplikasi
+## 📸 Screenshoot Aplikasi
 
 ### Form Registrasi
 
@@ -140,15 +140,31 @@ Sebagai contoh, pada gambar di bawah ditampilkan salah satu contoh pengisian for
 
 ><img width="1919" height="1141" alt="image" src="https://github.com/user-attachments/assets/143e1004-fb8e-4ca8-8bb4-9719cb2804d7" />
 
+##### Validasi Form
+
 Jika data yang dimasukkan oleh pengguna tidak sesuai dengan ketentuan yang ada, maka sistem akan menampilkan pesan kesalahan pada field yang bermasalah. Pada gambar di atas dapat dilihat beberapa contoh validasi yang muncul, seperti nama yang kurang dari jumlah karakter minimal, format email yang tidak valid, password yang belum memenuhi syarat, program studi yang belum dipilih, serta tanggal lahir yang belum diisi.
 
 Validasi ini bertujuan untuk membantu pengguna agar dapat memperbaiki data yang dimasukkan sebelum melanjutkan proses pendaftaran. Dengan adanya validasi ini, sistem dapat memastikan bahwa data yang dikirim sudah lengkap dan sesuai dengan format yang diharapkan.
 
 ><img width="1919" height="1142" alt="image" src="https://github.com/user-attachments/assets/f9f1ec08-bf3b-4e05-a6ff-110c9caab4b4" />
 
-Jika mendaftar dengan email yang sama
+Pada gambar di bawawh ditunjukkan kondisi ketika pengguna mencoba melakukan pendaftaran menggunakan email yang sudah pernah digunakan sebelumnya. Sistem akan mendeteksi bahwa email tersebut sudah terdaftar di dalam data pendaftar.
 
-Jika mendaftar tanpa klik syarat dan ketentuan
+Ketika hal ini terjadi, aplikasi akan menampilkan pesan pemberitahuan di bagian bawah layar yang menyatakan bahwa **email sudah terdaftar**. Dengan adanya pengecekan ini, sistem dapat mencegah terjadinya data pendaftar yang duplikat sehingga setiap peserta hanya dapat menggunakan satu email untuk melakukan registrasi.
+
+><img width="1919" height="1139" alt="image" src="https://github.com/user-attachments/assets/63eee277-3c72-4646-aa96-9adb09876e0d" />
+
+Pada gambar ini ditunjukkan kondisi ketika pengguna mencoba melakukan pendaftaran tanpa mencentang bagian persetujuan **syarat dan ketentuan**. Meskipun seluruh data pada form sudah diisi, proses registrasi tidak dapat dilanjutkan jika bagian ini belum dicentang.
+
+Ketika pengguna menekan tombol **Daftar Sekarang**, sistem akan menampilkan pesan peringatan yang meminta pengguna untuk terlebih dahulu menyetujui syarat dan ketentuan yang berlaku. Hal ini bertujuan untuk memastikan bahwa pengguna memahami dan menyetujui aturan yang ada sebelum proses pendaftaran dilakukan.
+
+><img width="1919" height="1141" alt="image" src="https://github.com/user-attachments/assets/c043c7eb-4181-4162-8089-a9cdfd401202" />
+
+Pada gambar di atas ditunjukkan fungsi dari tombol **Reset Form** yang terdapat di bawah tombol Daftar Sekarang. Tombol ini digunakan untuk menghapus seluruh data yang sudah diisi pada form pendaftaran.
+
+Ketika tombol reset ditekan, semua field input seperti nama, email, password, pilihan jenis kelamin, program studi, serta tanggal lahir akan kembali ke kondisi awal seperti saat halaman pertama kali dibuka. Dengan adanya fitur ini, pengguna dapat dengan mudah mengosongkan form jika ingin mengisi ulang data dari awal.
+
+><img width="1919" height="1138" alt="image" src="https://github.com/user-attachments/assets/7accf7c7-bc77-4de9-9657-c4070a849191" />
 
 ---
 
@@ -186,7 +202,7 @@ Halaman ini menampilkan seluruh data peserta yang telah berhasil melakukan regis
 
 Pada halaman ini pengguna dapat melihat beberapa informasi dasar dari setiap peserta, seperti **nama, program studi, dan email** yang digunakan saat registrasi. Setiap peserta ditampilkan dalam bentuk card atau list sehingga lebih mudah untuk dibaca.
 
-Selain menampilkan daftar peserta, halaman ini juga menyediakan beberapa fitur tambahan. Pengguna dapat membuka **halaman detail peserta** dengan menekan salah satu data pada daftar. Selain itu, tersedia juga ikon **tong sampah berwarna merah** yang berfungsi untuk menghapus data peserta dari daftar.
+Selain menampilkan daftar peserta, halaman ini juga menyediakan beberapa fitur tambahan. Pengguna dapat membuka **halaman detail peserta** dengan menekan salah satu data pada daftar. Selain itu, tersedia juga ikon **tong sampah berwarna merah** yang berfungsi untuk menghapus data peserta dari daftar, dan juga ikon tambah (+) yang berfungsi untuk menambah peserta lagi yang nantinya akan diarahkan ke halaman registrasi.
 
 ><img width="1919" height="1138" alt="image" src="https://github.com/user-attachments/assets/c4e25279-16b2-43c2-b544-3d8a4329f67b" />
 
@@ -201,6 +217,12 @@ Jika pengguna menekan ikon hapus tersebut, maka sistem akan menampilkan dialog k
 - Namun jika pengguna memilih tombol **Hapus**, maka data peserta tersebut akan dihapus dari daftar pendaftar.
 
   ><img width="1918" height="1141" alt="image" src="https://github.com/user-attachments/assets/ae5877a6-4539-4dd4-94ef-7055aa384713" />
+
+Pada gambar di bawah ditunjukkan halaman yang akan muncul ketika pengguna ingin menambahkan peserta baru. Untuk menambahkan peserta, pengguna cukup menekan ikon **tanda tambah (+)** yang terdapat pada halaman daftar pendaftar.
+
+Setelah ikon tersebut diklik, aplikasi akan langsung mengarahkan pengguna kembali ke **halaman registrasi**. Di halaman ini pengguna dapat mengisi kembali form pendaftaran dengan data peserta yang baru. Dengan adanya fitur ini, pengguna dapat dengan mudah menambahkan beberapa peserta tanpa harus kembali ke halaman utama secara manual.
+
+><img width="1919" height="1141" alt="image" src="https://github.com/user-attachments/assets/a89033bb-a459-4d59-92fc-aea81155e14e" />
 
 ---
 
