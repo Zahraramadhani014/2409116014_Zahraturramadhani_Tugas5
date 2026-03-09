@@ -166,6 +166,18 @@ Ketika tombol reset ditekan, semua field input seperti nama, email, password, pi
 
 ><img width="1919" height="1138" alt="image" src="https://github.com/user-attachments/assets/7accf7c7-bc77-4de9-9657-c4070a849191" />
 
+Pada gambar di bawah ditunjukkan halaman registrasi yang juga menyediakan akses untuk melihat daftar peserta yang telah mendaftar. Jika pengguna ingin melihat data peserta yang sudah terdaftar, pengguna dapat menekan ikon yang berada di bagian kanan atas pada AppBar.
+
+Ikon tersebut berfungsi sebagai tombol navigasi yang akan membawa pengguna menuju halaman daftar peserta. Dengan adanya fitur ini, pengguna dapat dengan mudah berpindah dari halaman registrasi ke halaman yang menampilkan seluruh data pendaftar.
+
+><img width="1600" height="952" alt="image" src="https://github.com/user-attachments/assets/660bbf8d-b1c8-4b09-a4aa-c8d3fa646917" />
+
+Setelah ikon tersebut ditekan, aplikasi akan mengarahkan pengguna ke halaman **daftar peserta**. Pada halaman ini ditampilkan seluruh data peserta yang telah berhasil melakukan registrasi.
+
+Setiap peserta ditampilkan dalam bentuk daftar yang berisi informasi seperti nama peserta, program studi, serta email yang digunakan saat mendaftar. Melalui halaman ini pengguna dapat melihat siapa saja yang telah terdaftar dalam event tersebut dan juga dapat melakukan beberapa tindakan lain seperti membuka detail peserta atau menghapus data peserta dari daftar.
+
+<img width="1919" height="1142" alt="image" src="https://github.com/user-attachments/assets/20df40d8-a6c8-4298-8d35-8e50aeef4031" />
+
 ---
 
 ### 3️⃣ Submit Form
