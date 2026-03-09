@@ -148,7 +148,7 @@ Validasi ini bertujuan untuk membantu pengguna agar dapat memperbaiki data yang 
 
 ><img width="1919" height="1142" alt="image" src="https://github.com/user-attachments/assets/f9f1ec08-bf3b-4e05-a6ff-110c9caab4b4" />
 
-Pada gambar di bawawh ditunjukkan kondisi ketika pengguna mencoba melakukan pendaftaran menggunakan email yang sudah pernah digunakan sebelumnya. Sistem akan mendeteksi bahwa email tersebut sudah terdaftar di dalam data pendaftar.
+Pada gambar di bawah ditunjukkan kondisi ketika pengguna mencoba melakukan pendaftaran menggunakan email yang sudah pernah digunakan sebelumnya. Sistem akan mendeteksi bahwa email tersebut sudah terdaftar di dalam data pendaftar.
 
 Ketika hal ini terjadi, aplikasi akan menampilkan pesan pemberitahuan di bagian bawah layar yang menyatakan bahwa **email sudah terdaftar**. Dengan adanya pengecekan ini, sistem dapat mencegah terjadinya data pendaftar yang duplikat sehingga setiap peserta hanya dapat menggunakan satu email untuk melakukan registrasi.
 
