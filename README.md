@@ -146,6 +146,10 @@ Validasi ini bertujuan untuk membantu pengguna agar dapat memperbaiki data yang 
 
 ><img width="1919" height="1142" alt="image" src="https://github.com/user-attachments/assets/f9f1ec08-bf3b-4e05-a6ff-110c9caab4b4" />
 
+Jika mendaftar dengan email yang sama
+
+Jika mendaftar tanpa klik syarat dan ketentuan
+
 ---
 
 ### 3️⃣ Submit Form
