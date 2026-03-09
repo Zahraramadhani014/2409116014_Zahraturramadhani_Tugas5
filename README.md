@@ -142,7 +142,7 @@ Sebagai contoh, pada gambar di bawah ditampilkan salah satu contoh pengisian for
 
 ##### Validasi Form
 
-Jika data yang dimasukkan oleh pengguna tidak sesuai dengan ketentuan yang ada, maka sistem akan menampilkan pesan kesalahan pada field yang bermasalah. Pada gambar di atas dapat dilihat beberapa contoh validasi yang muncul, seperti nama yang kurang dari jumlah karakter minimal, format email yang tidak valid, password yang belum memenuhi syarat, program studi yang belum dipilih, serta tanggal lahir yang belum diisi.
+Jika data yang dimasukkan oleh pengguna tidak sesuai dengan ketentuan yang ada, maka sistem akan menampilkan pesan kesalahan pada field yang bermasalah. Pada gambar di bawah dapat dilihat beberapa contoh validasi yang muncul, seperti nama yang kurang dari jumlah karakter minimal, format email yang tidak valid, password yang belum memenuhi syarat, program studi yang belum dipilih, serta tanggal lahir yang belum diisi.
 
 Validasi ini bertujuan untuk membantu pengguna agar dapat memperbaiki data yang dimasukkan sebelum melanjutkan proses pendaftaran. Dengan adanya validasi ini, sistem dapat memastikan bahwa data yang dikirim sudah lengkap dan sesuai dengan format yang diharapkan.
 
@@ -160,7 +160,7 @@ Ketika pengguna menekan tombol **Daftar Sekarang**, sistem akan menampilkan pesa
 
 ><img width="1919" height="1141" alt="image" src="https://github.com/user-attachments/assets/c043c7eb-4181-4162-8089-a9cdfd401202" />
 
-Pada gambar di atas ditunjukkan fungsi dari tombol **Reset Form** yang terdapat di bawah tombol Daftar Sekarang. Tombol ini digunakan untuk menghapus seluruh data yang sudah diisi pada form pendaftaran.
+Pada gambar di bawah ditunjukkan fungsi dari tombol **Reset Form** yang terdapat di bawah tombol Daftar Sekarang. Tombol ini digunakan untuk menghapus seluruh data yang sudah diisi pada form pendaftaran.
 
 Ketika tombol reset ditekan, semua field input seperti nama, email, password, pilihan jenis kelamin, program studi, serta tanggal lahir akan kembali ke kondisi awal seperti saat halaman pertama kali dibuka. Dengan adanya fitur ini, pengguna dapat dengan mudah mengosongkan form jika ingin mengisi ulang data dari awal.
 
