@@ -236,7 +236,7 @@ Setelah ikon tersebut diklik, aplikasi akan langsung mengarahkan pengguna kembal
 
 ><img width="1919" height="1141" alt="image" src="https://github.com/user-attachments/assets/a89033bb-a459-4d59-92fc-aea81155e14e" />
 
-Pada gambar di atas ditunjukkan kondisi ketika halaman daftar peserta masih kosong atau belum ada data pendaftar yang tersimpan di dalam sistem. Pada keadaan ini, aplikasi akan menampilkan pesan bahwa **belum ada pendaftar**.
+Pada gambar di bawah ditunjukkan kondisi ketika halaman daftar peserta masih kosong atau belum ada data pendaftar yang tersimpan di dalam sistem. Pada keadaan ini, aplikasi akan menampilkan pesan bahwa **belum ada pendaftar**.
 
 Pesan ini berfungsi sebagai informasi kepada pengguna bahwa saat ini belum ada peserta yang melakukan registrasi. Selain itu, ditampilkan juga ikon dan teks yang mengarahkan pengguna untuk melakukan pendaftaran terlebih dahulu melalui halaman registrasi. Dengan adanya tampilan ini, pengguna dapat mengetahui bahwa daftar peserta akan terisi setelah ada data pendaftar yang berhasil disimpan oleh sistem.
 
