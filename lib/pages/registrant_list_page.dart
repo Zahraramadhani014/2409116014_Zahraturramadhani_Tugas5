@@ -78,7 +78,7 @@ class RegistrantListPage extends StatelessWidget {
                                 Navigator.pop(ctx);
                               },
                               style: ElevatedButton.styleFrom(
-                                backgroundColor: Colors.red,
+                                backgroundColor: Color.fromARGB(255, 231, 77, 179),
                               ),
                               child: const Text('Hapus'),
                             ),

@@ -88,7 +88,7 @@ class _RegistrationPageState extends State<RegistrationPage> {
       ScaffoldMessenger.of(context).showSnackBar(
         const SnackBar(
           content: Text('Harap setujui syarat & ketentuan'),
-          backgroundColor: Colors.red,
+          backgroundColor: Color.fromARGB(255, 231, 77, 179),
         ),
       );
       return;
@@ -100,7 +100,7 @@ class _RegistrationPageState extends State<RegistrationPage> {
       ScaffoldMessenger.of(context).showSnackBar(
         const SnackBar(
           content: Text('Email sudah terdaftar!'),
-          backgroundColor: Colors.orange,
+          backgroundColor: Color.fromARGB(255, 231, 77, 179),
         ),
       );
       return;
