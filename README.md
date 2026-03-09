@@ -82,7 +82,7 @@ Selain itu terdapat juga file **main.dart** yang merupakan titik awal ketika apl
 
 ---
 
-## 📸 Screenshoot Aplikasi
+## 📸 Screenshot Aplikasi
 
 ### Form Registrasi
 
