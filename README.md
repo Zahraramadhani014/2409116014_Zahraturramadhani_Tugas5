@@ -134,7 +134,7 @@ Setiap field yang memiliki tanda (*) berarti wajib diisi oleh pengguna. Jika ada
 
 Dengan adanya form ini, pengguna dapat memasukkan data pendaftaran secara lengkap sebelum data tersebut diproses dan disimpan oleh sistem.
 
-><img width="1919" height="1139" alt="image" src="https://github.com/user-attachments/assets/f2859a76-22f8-4004-b0c3-d27959030d6e" />
+><img width="1916" height="1142" alt="image" src="https://github.com/user-attachments/assets/99a51f5f-ce4f-401c-b3a0-6265007e6a77" />
 
 Sebagai contoh, pada gambar di bawah ditampilkan salah satu contoh pengisian form registrasi oleh pengguna. Pada contoh tersebut, pengguna telah mengisi beberapa data yang diminta oleh sistem seperti nama lengkap, email, password, jenis kelamin, program studi, serta tanggal lahir. Selain itu, pengguna juga mencentang bagian persetujuan syarat dan ketentuan sebagai tanda bahwa pengguna menyetujui aturan yang berlaku pada proses pendaftaran. Contoh ini menunjukkan bagaimana form registrasi dapat diisi secara lengkap sebelum data dikirim ke sistem. 
 
